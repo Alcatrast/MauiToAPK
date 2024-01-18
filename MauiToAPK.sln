@@ -3,20 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiToAPK", "MauiToAPK\MauiToAPK.csproj", "{46361A49-16CC-4E27-9E47-5B2A0B099635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiToAPK", "MauiToAPK\MauiToAPK.csproj", "{46361A49-16CC-4E27-9E47-5B2A0B099635}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoCode", "ArduinoCode\ArduinoCode.vcxproj", "{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|x64.Build.0 = Debug|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|x86.Build.0 = Debug|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Debug|x86.Deploy.0 = Debug|Any CPU
 		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|x64.ActiveCfg = Release|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|x64.Build.0 = Release|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|x64.Deploy.0 = Release|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|x86.ActiveCfg = Release|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|x86.Build.0 = Release|Any CPU
+		{46361A49-16CC-4E27-9E47-5B2A0B099635}.Release|x86.Deploy.0 = Release|Any CPU
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Debug|Any CPU.Build.0 = Debug|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Debug|x64.ActiveCfg = Debug|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Debug|x64.Build.0 = Debug|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Debug|x86.Build.0 = Debug|Win32
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Release|Any CPU.ActiveCfg = Release|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Release|Any CPU.Build.0 = Release|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Release|x64.ActiveCfg = Release|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Release|x64.Build.0 = Release|x64
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Release|x86.ActiveCfg = Release|Win32
+		{840FA9B1-3E3E-4A73-BDB5-C68BC18066D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
